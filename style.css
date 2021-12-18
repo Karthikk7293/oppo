@@ -442,7 +442,7 @@ footer{
 }
 .common-footer{
   font-family: serif;
-  width: 13rem;
+  width: 10rem;
   height: 23rem;
 /* background:white; */
 }
@@ -455,6 +455,9 @@ footer{
 .common-footer a{
   text-decoration: none;
 }
+.common-footer a h4{
+  font-size: 12px;
+}
 .common-footer h3{
   color: whitesmoke;
 }
@@ -464,7 +467,10 @@ footer{
   flex-direction: column;
 }
 .footer-underline{
-  padding: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
   width: 100%;
 }
 .footer-underline h5{
